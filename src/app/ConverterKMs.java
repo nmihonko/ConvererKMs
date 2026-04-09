@@ -6,13 +6,19 @@ public class ConverterKMs {
             System.out.println("Converter App.");
             System.out.println("App for distance converting");
             double kms = 5;
+            double mil = 80;
             double miles = ConvKmsToMiles(kms);
 
-            System.out.println("Result is " + miles + " miles");
+            System.out.println("Result is " + miles + " miles and kms " + mil + "kms;");
 
         }
 
         private static double ConvKmsToMiles(double kms) {
             return kms * CONV_KM;
         }
+
+    private static double convMilesToKms(double mil) {
+        return mil / CONV_KM;
+    }
+
 }
