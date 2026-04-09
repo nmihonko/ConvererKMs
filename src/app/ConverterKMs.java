@@ -8,8 +8,9 @@ public class ConverterKMs {
             double kms = 5;
             double mil = 80;
             double miles = ConvKmsToMiles(kms);
+            double kilometres = convMilesToKms(mil);
 
-            System.out.println("Result is " + miles + " miles and kms " + mil + "kms;");
+            System.out.println("Result is " + miles + " miles and kms " + kilometres + "kms;");
 
         }
 
